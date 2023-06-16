@@ -1,0 +1,1 @@
+Lien vers l'API Ghibli : https://raw.githubusercontent.com/582-31F-MA/jeux-de-donnees/main/ghibli.json

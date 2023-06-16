@@ -1,0 +1,18 @@
+|-- src
+|	|-- css
+|	|	|-- style.css
+|	|	|-- reset.css
+|	|	|-- ...
+|	|-- lib
+|	|	|-- Router.js
+|	|	|-- Catalogue.js
+|	|	|-- ...
+|	|-- routes
+|	|	|-- home
+|	|	|	|-- index.html
+|	|	|	|-- index.js
+|	|	|-- details
+|	|	|	|-- index.html
+|	|	|	|-- index.js
+|	|-- index.html
+|	|-- main.js
