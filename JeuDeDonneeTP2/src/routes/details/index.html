@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="details-container">
+        <h1 class="title">Détails</h1>
+
+        <main>
+            <p>Loading product...</p>
+        </main>
+
+        <div class="comments-container" style="display: none;">
+            <h1 class="title">Commentaires</h1>
+
+            <main></main>
+
+            <form id="comment-form" method="POST">
+                <h2>Ajouter un commentair</h2>
+                <input class="input" type="text" name="firstname" placeholder="prenom" />
+                <input class="input" type="text" name="lastname" placeholder="nom" />
+                <input class="input" type="email" name="email" placeholder="email" />
+                <select class="input" name="country" id="countries-select">
+                    <option disabled selected value="none">Choisir votre pays</option>
+                </select>
+                <select class="input" name="state" id="states-select"></select>
+                <select class="input" name="city" id="city-select"></select>
+                <textarea name="comment" placeholder="commentaire" class="input" rows="5"></textarea>
+                <button type="submit" class="btn">Ajouter</button>
+            </form>
+        </div>
+    </div>
+</div>

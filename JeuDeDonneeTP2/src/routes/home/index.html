@@ -1,0 +1,71 @@
+<div class="overlay"></div>
+
+<div class="container">
+    <button class="aside-toggler" id="open-aside">
+        OPEN
+    </button>
+
+    <aside class="">
+        <button class="aside-toggler" id="close-aside">
+            CLOSE
+        </button>
+
+        <div class="box">
+            <form id="searchFrom">
+                <h3 class="title">Search</h3>
+                <input type="search" name="search" class="input" id="formSearchInput">
+                <button type="submit" class="btn">Search</button>
+            </form>
+        </div>
+
+        <div class="box">
+            <h3 class="title">Sort By Title OR Price</h3>
+            <select class="input" id="sort-select">
+                <option value="title-asc">Title ascending</option>
+                <option value="title-desc">Title descending</option>
+                <option value="price-asc">Price ascending</option>
+                <option value="price-desc">Price descending</option>
+            </select>
+        </div>
+
+        <div class="box">
+            <h3 class="title">Filter By Category</h3>
+            <div class="checks">
+                <label>
+                    <input class="category" type="checkbox" value="men's clothing" />
+                    Men's clothing
+                </label>
+                <label>
+                    <input class="category" type="checkbox" value="women's clothing" />
+                    Women's clothing
+                </label>
+                <label>
+                    <input class="category" type="checkbox" value="jewelery" />
+                    Jewelery
+                </label>
+                <label>
+                    <input class="category" type="checkbox" value="electronics" />
+                    Electronics
+                </label>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3 class="title">Display</h3>
+            <label>
+                Grid
+                <input type="radio" name="display" value="grid" />
+            </label>
+            <label>
+                List
+                <input type="radio" name="display" value="list" checked />
+            </label>
+        </div>
+
+    </aside>
+
+
+    <main>
+        <p>Loading products...</p>
+    </main>
+</div>
